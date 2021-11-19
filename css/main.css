@@ -1,0 +1,129 @@
+:root {
+  --clr-primary-200: hsl(215, 51%, 70%);
+  --clr-primary-400: hsl(178, 100%, 50%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  /* line */
+  --clr-neutral-700: hsl(215, 32%, 27%);
+  /* card bg */
+  --clr-neutral-800: hsl(216, 50%, 16%);
+  /* main bg */
+  --clr-neutral-900: hsl(217, 54%, 11%);
+
+  --ff-primary: "Outfit", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h3 {
+  color: var(--clr-neutral-100);
+}
+
+p {
+  color: var(--clr-primary-200);
+}
+
+hr {
+  color: var(--clr-neutral-700);
+}
+
+body p {
+  font-weight: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--clr-neutral-900);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--clr-neutral-800);
+  transition: 0.3s;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.card img {
+  border-radius: 0.75rem;
+}
+
+.value {
+  color: var(--clr-primary-400);
+}
+
+.remaining {
+  color: var(--clr-primary-200);
+}
+
+.icon {
+  display: inline-block;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+.creator {
+  color: var(--clr-neutral-100);
+}
+
+.remaining {
+  margin-left: auto;
+}
+
+.avatar {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-bottom span {
+  align-content: center;
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+.name {
+  color: var(--clr-neutral-100);
+}
+
+@media (max-width: 375px) {
+  .attribution {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 375px) {
+  img {
+    max-width: 12rem;
+    align-self: center;
+  }
+  .card {
+    margin: auto;
+    max-width: 15rem;
+  }
+}
