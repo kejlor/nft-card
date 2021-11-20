@@ -26,12 +26,21 @@ p {
   color: var(--clr-primary-200);
 }
 
+a {
+  color: var(--clr-neutral-100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--clr-primary-400);
+}
+
 hr {
   color: var(--clr-neutral-700);
 }
 
 body p {
-  font-weight: 18px;
+  font-size: 18px;
 }
 
 .attribution {
@@ -103,6 +112,7 @@ body {
 
 .card-bottom span {
   align-content: center;
+  color: var(--clr-primary-200);
   font-size: 13px;
   margin-left: 1rem;
 }
