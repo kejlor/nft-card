@@ -140,6 +140,13 @@ body {
   }
 }
 
+.eye-icon {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.3;
+}
+
 .main-image:hover img {
   z-index: 100;
   opacity: 0.3;
@@ -148,5 +155,10 @@ body {
 .main-image:hover {
   background-color: var(--clr-primary-400);
   border-radius: 0.75rem;
+  opacity: 1;
+}
+
+.eye-icon:hover {
+  display: inline;
   opacity: 1;
 }
