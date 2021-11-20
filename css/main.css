@@ -139,3 +139,14 @@ body {
     max-width: 15rem;
   }
 }
+
+.main-image:hover img {
+  z-index: 100;
+  opacity: 0.3;
+}
+
+.main-image:hover {
+  background-color: var(--clr-primary-400);
+  border-radius: 0.75rem;
+  opacity: 1;
+}
